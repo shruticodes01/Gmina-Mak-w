@@ -88,3 +88,11 @@ body {
     flex-direction: row-reverse;
     gap: .5rem;
 }
+
+.btn__search,
+.btn__new-chat {
+    border: none;
+    background: none;
+    height: max-content;
+    width: max-content;
+}
