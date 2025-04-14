@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.hero {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-areas:
+        "sidebar nav"
+        "sidebar main"
+        "sidebar main";
+}
+
+.nav {
+    grid-area: nav;
+    padding: 1rem 1rem 0;
+}
+
+.main {
+    grid-area: main;
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: 8fr 2fr;
+    grid-template-areas:
+        "answer"
+        "question";
+}
+
+.sidebar {
+    grid-area: sidebar;
+    padding: 1rem;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search__answer {
+    grid-area: answer;
+}
+
+.search__question {
+    grid-area: question;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+.textarea__btn--display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.input {
+    width: 45%;
+    border: 2px solid #7393A7;
+    border-radius: 2rem;
+
+}
+
+.btn__send {
+    border: none;
+    background: none;
+    height: max-content;
+    width: max-content;
+    align-self: flex-end;
+}
+
+.title__text--position {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn__group {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: .5rem;
+}
