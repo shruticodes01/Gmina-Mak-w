@@ -70,8 +70,13 @@
     width: 100%;
     max-width: 35rem;
     border: 2px solid #1687A7;
+    border: 2px solid #1688a7ca;
     border-radius: .75rem;
+    padding: .75rem;
     text-indent: 8px;
+    resize: none;
+    color: #276678;
+    color: #136d86;
 }
 
 .btn {
