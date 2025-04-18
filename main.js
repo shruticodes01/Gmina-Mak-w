@@ -1,4 +1,4 @@
-"user-strict";
+"use strict";
 
 const answer = document.getElementById("answer");
 const question = document.getElementById("question");

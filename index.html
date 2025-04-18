@@ -16,26 +16,36 @@
 
 <body>
     <div class="hero">
-        <nav class="nav">
-            <div class="intro">
-                <img src="images/POL_gmina_Maków_COA.svg" alt="logo" class="logo">
-                <h1>Gmina Maków</h1>
-            </div>
-        </nav>
-        <main class="main">
-            <section class="search__answer" id="answer"></section>
-            <section class="search__question" id="question">
-                <label for="text-search">
-                    <h2 class="title__text--position">W czym mogę pomóc?</h2>
-                </label>
-                <div class="textarea__btn--display">
-                    <textarea id="text-search" name="text-search" rows="5" cols="20" class="input"></textarea>
-                    <button class="btn__send"><img class="img__size"
-                            src="images/send_40dp_1687A7_FILL0_wght400_GRAD0_opsz40.svg"></button>
+        <div class="hero__position--center">
+            <nav class="nav">
+                <div class="intro__img">
+                    <img src="images/POL_gmina_Maków_COA.svg" alt="logo" class="logo">
                 </div>
-            </section>
-        </main>
-        <aside class="sidebar">
+                <h1 class="intro__title">Gmina Maków</h1>
+
+            </nav>
+            <main class="main">
+                <section class="search__question" id="question">
+                    <label for="text-search">
+                        <h2 class="search__title">W czym mogę pomóc?</h2>
+                    </label>
+                    <div class="prompt__group">
+                        <p class="prompt__style"><a href="" class="prompt">prompt question 1</a></p>
+                        <p class="prompt__style"><a href="" class="prompt">prompt question 2</a></p>
+                        <p class="prompt__style"><a href="" class="prompt">prompt question 3</a></p>
+                        <p class="prompt__style"><a href="" class="prompt">prompt question 4</a></p>
+
+                    </div>
+                    <div class="textarea__style">
+                        <textarea id="text-search" name="text-search" rows="5" class="input"></textarea>
+                        <button type="button" class="btn"><img class="btn__img--size"
+                                src="images/send_45dp_1687A7_FILL0_wght400_GRAD200_opsz48.svg"></button>
+                    </div>
+                </section>
+
+                <section class="input__answer hidden" id="answer"></section>
+            </main>
+            <!-- <aside class="sidebar">
             <div class="btn__group">
                 <button class="btn__search"><img
                         src="images/search_40dp_1687A7_FILL0_wght400_GRAD0_opsz40.svg"></span></button>
@@ -43,7 +53,8 @@
                         src="images/edit_square_40dp_1687A7_FILL0_wght400_GRAD0_opsz40.svg"></button>
             </div>
 
-        </aside>
+        </aside> -->
+        </div>
     </div>
 
     <script src="main.js"></script>

@@ -45,6 +45,7 @@ input,
 label {
     line-height: 1.1;
     color: #276678;
+    color: #1687A7;
 }
 
 p,
@@ -72,6 +73,7 @@ h6 {
 }
 
 body {
+    min-height: 100vh;
     background: #E8ECF1;
     background-color: #F6F5F5;
     color: #276678;
@@ -83,7 +85,30 @@ body {
     background: #D3E0EA;
 }
 
-.logo {
-    width: 25px;
-    height: 25px;
+.hidden {
+    display: none;
+}
+
+/* Typography */
+
+.intro__title {
+    /* font-size: clamp(2rem, 1.907rem + .79vw, 3.75rem); 17.24- 8.88 = 8.36/625 = .0122,  */
+
+    font-size: clamp(2rem, 1.89rem + 1.1vw, 3.75rem);
+
+    font-size: clamp(2rem, 1.86rem + 1.375vw, 3.875rem);
+    font-size: clamp(2rem, 1.89rem + 1.06vw, 3.625rem);
+    font-size: clamp(2.25rem, 2.14rem + 1.22vw, 3.625rem);
+
+
+}
+
+.search__title {
+
+    font-size: clamp(1.375rem, .99rem + 2.88vw, 1.9375rem);
+    font-size: clamp(1.375rem, .975rem + 3vw, 1.875rem);
+
+
+
+    /* 40-13.33 = 26.67/880 = 0.030,   rem*/
 }
