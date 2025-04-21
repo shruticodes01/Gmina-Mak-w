@@ -70,7 +70,7 @@
     width: 100%;
     max-width: 34rem;
     border: 2px solid #1687A7;
-    border: 2px solid #1688a7ca;
+    border: 2px solid #1688a7d8;
     border-radius: .75rem;
     padding: .75rem;
     text-indent: 8px;
@@ -85,7 +85,7 @@
     border: none;
     align-self: flex-end;
     padding: 0;
-    transition: all 500ms ease-in-out;
+    transition: transform 500ms ease-in-out allow-discrete;
 }
 
 .btn:hover,
@@ -93,11 +93,10 @@
     transform: scale(1.08) translateX(8px);
     transform: scale(1.08) translate(8px, -2px);
     padding: .1em;
-    /* filter: drop-shadow(0 0 .05em #276678); */
 }
 
 .btn:active {
-    filter: drop-shadow(2px 2px 8px #1687A7)
+    filter: drop-shadow(2px 1px 4px #276678)
 }
 
 .input__answer {
